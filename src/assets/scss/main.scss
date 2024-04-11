@@ -13,8 +13,29 @@
     align-items: center;
     justify-content: center;
     background-image: url('src/assets/img/forest.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    scale: 0.5;
+    scale: 0.75;
   }
+
+  .foliage {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background-image: url('src/assets/img/foliage.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+    left: -250px;
+
+    @media (max-width: $breakpoint) {
+      left: -375px;
+    }
+  }
+
+  // .foliage-1 {
+  //   top: calc(50% - 250px);
+  //   left: -250px;
+  //   transform: rotate(90deg);
+  // }
 }
