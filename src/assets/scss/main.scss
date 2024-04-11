@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    scale: 0.75;
   }
 
   .foliage {
@@ -26,16 +25,33 @@
     background-image: url('src/assets/img/foliage.png');
     background-repeat: no-repeat;
     z-index: 1;
-    left: -250px;
 
     @media (max-width: $breakpoint) {
-      left: -375px;
+      scale: 0.5;
     }
   }
 
-  // .foliage-1 {
-  //   top: calc(50% - 250px);
-  //   left: -250px;
-  //   transform: rotate(90deg);
-  // }
+  .foliage-1 {
+    top: calc(50% - 125px);
+    left: -250px;
+    transform: rotate(90deg);
+  }
+
+  .foliage-2 {
+    top: -250px;
+    left: calc(50% - 375px);
+    transform: rotate(170deg);
+  }
+
+  .foliage-3 {
+    top: -250px;
+    right: calc(40% - 375px);
+    transform: rotate(210deg);
+  }
+
+  .foliage-4 {
+    top: calc(50% - 375px);
+    right: -250px;
+    transform: rotate(270deg);
+  }
 }
