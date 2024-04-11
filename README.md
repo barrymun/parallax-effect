@@ -1,3 +1,7 @@
+## Demo
+
+![Demo](screenshots/demo.gif)
+
 ## Credits
 
 [Organic flat jungle background with monkey silhouette](https://www.freepik.com/free-vector/organic-flat-jungle-background-with-monkey-silhouette_13810821.htm#fromView=search&page=1&position=21&uuid=010f18b8-5c22-4b95-8332-df6bc286ad32) - Image by freepik
